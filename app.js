@@ -32,7 +32,8 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // Mongoose Connection URL
-mongoose.connect("mongodb://0.0.0.0:27017/userDB");
+// mongoose.connect("mongodb://0.0.0.0:27017/userDB");
+mongoose.connect("mongodb+srv://itsmeak:passwordakash@cluster0.8h2pnt9.mongodb.net/userDB");
 
 
 // Mongoose Schema
